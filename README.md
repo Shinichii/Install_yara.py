@@ -1,2 +1,8 @@
 # Install_yara.py
-Little script in Python to automate the installation of Yara on a Linux distribution
+Script en python pour automatiser l'installation de yara.
+Il vous faudra Python version 2 pour que le script fonctionne.
+
+Procédure:
+-Lancer le script install\_part1.py
+-Mettre le fichier install\_part2.py dans le dossier crée par install\_part1.py
+-Lancer le script install\_part2.py dans le dossier
