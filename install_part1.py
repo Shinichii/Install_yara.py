@@ -7,7 +7,7 @@ yaraVersion="yara-"+version
 os.system("apt-get install automake libtool make gcc libssl-dev python-pip")
 urllib.urlretrieve("https://github.com/VirusTotal/yara/archive/v"+version+".tar.gz", yaraVersion + "tar.gz")
 
-os.system("tar -zxf  "+ yaraVersion + ".tar.gz"
+os.system("tar -zxf  "+ yaraVersion + ".tar.gz")
 os.system("pip install yara-python")
 
-print("Le telechargement des fichiers sources est desormais termine. Pour finir l’installation, veuillez lancer le script install_yara.py dans le dossier" + currentDirectory + "/" + yaraVersion)
+print("Le telechargement des fichiers sources est desormais termine. Pour finir l'installation, veuillez lancer le script install_yara.py dans le dossier" + currentDirectory + "/" + yaraVersion)
