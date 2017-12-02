@@ -1,7 +1,7 @@
 import os
 
-os.system("bootstrap.sh")
-os.system("configure")
+os.system("./bootstrap.sh")
+os.system("./configure")
 os.system("make")
 os.system("make install")
 os.system("make check")
