@@ -1,6 +1,6 @@
 # Install_yara.py
 Script en python pour automatiser l'installation de yara.
-Il vous faudra Python version 2 pour que le script fonctionne.
+Il vous faudra Python version 2 ainsi que les privilèges necessaire pour que le script fonctionne.
 
 Procédure:
 -Lancer le script install\_part1.py
