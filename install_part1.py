@@ -10,4 +10,4 @@ urllib.urlretrieve("https://github.com/VirusTotal/yara/archive/v"+version+".tar.
 os.system("tar -zxf  "+ yaraVersion + ".tar.gz")
 os.system("pip install yara-python")
 
-print("Le telechargement des fichiers sources est desormais termine. Pour finir l'installation, veuillez lancer le script install_yara.py dans le dossier" + currentDirectory + "/" + yaraVersion)
+print("Le telechargement des fichiers sources est desormais termine. Pour finir l'installation, veuillez lancer le script install_part2.py dans le dossier" + currentDirectory + "/" + yaraVersion)
